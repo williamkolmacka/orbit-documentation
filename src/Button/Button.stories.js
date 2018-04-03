@@ -7,12 +7,12 @@ import styles from "@sambego/storybook-styles";
 import chaptersAddon from "react-storybook-addon-chapters";
 import { withKnobs, text, number, boolean, select } from "@storybook/addon-knobs/react";
 
-import Button from "./index";
-
 import PlusCircle from "../icons/PlusCircle";
 import Facebook from "../icons/Facebook";
 import Google from "../icons/Google";
 import Remove from "../icons/Remove";
+
+import Button from "./index";
 
 setAddon(chaptersAddon);
 
@@ -25,14 +25,13 @@ const options = {
 
 storiesOf("Button", module)
   .addDecorator(withKnobs)
-  .addDecorator(styles({
-    padding: '20px',
-  }))
+  .addDecorator(
+    styles({
+      padding: "20px",
+    }),
+  )
   .addWithChapters("Primary button", () => {
-    const width = number(
-      "Width",
-      null,
-    );
+    const width = number("Width", 180);
 
     const size = select(
       "Size",
@@ -44,12 +43,13 @@ storiesOf("Button", module)
       "normal",
     );
     return {
-      title: 'Primary button',
-      info: 'Some description about this type of button in general.',
+      title: "Primary button",
+      info: "Some description about this type of button in general.",
       chapters: [
         {
           title: `Without icon`,
-          info: "Some description about where is the button without icon used and states describing how to not use it in general. ",
+          info:
+            "Some description about where is the button without icon used and states describing how to not use it in general. ",
           sections: [
             {
               title: `Button ${size}`,
@@ -70,7 +70,8 @@ storiesOf("Button", module)
         },
         {
           title: `With icon`,
-          info: "Some description about where is the button with icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button with icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -95,10 +96,7 @@ storiesOf("Button", module)
     };
   })
   .addWithChapters("Secondary button", () => {
-    const width = number(
-      "Width",
-      null,
-    );
+    const width = number("Width", null);
 
     const size = select(
       "Size",
@@ -110,12 +108,13 @@ storiesOf("Button", module)
       "normal",
     );
     return {
-      title: 'Secondary button',
-      info: 'Some description about this type of button in general.',
+      title: "Secondary button",
+      info: "Some description about this type of button in general.",
       chapters: [
         {
           title: `Without icon`,
-          info: "Some description about where is the button without icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button without icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -136,7 +135,8 @@ storiesOf("Button", module)
         },
         {
           title: `With icon`,
-          info: "Some description about where is the button with icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button with icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -161,10 +161,7 @@ storiesOf("Button", module)
     };
   })
   .addWithChapters("Link button", () => {
-    const width = number(
-      "Width",
-      null,
-    );
+    const width = number("Width", null);
 
     const size = select(
       "Size",
@@ -176,12 +173,13 @@ storiesOf("Button", module)
       "normal",
     );
     return {
-      title: 'Link button',
-      info: 'Some description about this type of button in general.',
+      title: "Link button",
+      info: "Some description about this type of button in general.",
       chapters: [
         {
           title: `Without icon`,
-          info: "Some description about where is the button without icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button without icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -202,7 +200,8 @@ storiesOf("Button", module)
         },
         {
           title: `With icon`,
-          info: "Some description about where is the button with icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button with icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -227,10 +226,7 @@ storiesOf("Button", module)
     };
   })
   .addWithChapters("Facebook button", () => {
-    const width = number(
-      "Width",
-      null,
-    );
+    const width = number("Width", null);
 
     const size = select(
       "Size",
@@ -242,12 +238,13 @@ storiesOf("Button", module)
       "normal",
     );
     return {
-      title: 'Facebook button',
-      info: 'Some description about this type of button in general.',
+      title: "Facebook button",
+      info: "Some description about this type of button in general.",
       chapters: [
         {
           title: `With icon`,
-          info: "Some description about where is the button with icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button with icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -272,10 +269,7 @@ storiesOf("Button", module)
     };
   })
   .addWithChapters("Google button", () => {
-    const width = number(
-      "Width",
-      null,
-    );
+    const width = number("Width", null);
 
     const size = select(
       "Size",
@@ -287,12 +281,13 @@ storiesOf("Button", module)
       "normal",
     );
     return {
-      title: 'Google Button',
-      info: 'Some description about this type of button in general.',
+      title: "Google Button",
+      info: "Some description about this type of button in general.",
       chapters: [
         {
           title: `With icon`,
-          info: "Some description about where is the button with icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button with icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,
@@ -317,10 +312,7 @@ storiesOf("Button", module)
     };
   })
   .addWithChapters("Destructive button", () => {
-    const width = number(
-      "Width",
-      null,
-    );
+    const width = number("Width", null);
 
     const size = select(
       "Size",
@@ -332,12 +324,13 @@ storiesOf("Button", module)
       "normal",
     );
     return {
-      title: 'Destructive Button',
-      info: 'Some description about this type of button in general.',
+      title: "Destructive Button",
+      info: "Some description about this type of button in general.",
       chapters: [
         {
           title: `With icon`,
-          info: "Some description about where is the button with icon used and states describing how to not use it in general.",
+          info:
+            "Some description about where is the button with icon used and states describing how to not use it in general.",
           sections: [
             {
               title: `Button ${size}`,

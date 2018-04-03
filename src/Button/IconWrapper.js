@@ -28,17 +28,17 @@ const colorIcon = {
 const colorIconBordered = {
   primary: tokens.colorIconButtonPrimaryBordered,
   secondary: tokens.colorIconButtonSecondaryBordered,
+  link: tokens.colorIconButtonLinkBordered,
   facebook: tokens.colorIconButtonFacebookBordered,
   google: tokens.colorIconButtonGoogleBordered,
   destructive: tokens.colorIconButtonDestructiveBordered,
 };
 
 type Props = {
-  bordered: boolean,
-  loading: boolean,
+  bordered?: boolean,
   size: $Keys<typeof sizeIcon>,
   type: $Keys<typeof colorIcon> | $Keys<typeof colorIconBordered>,
-  Icon: React.ComponentType<*>
+  Icon: React.ComponentType<*>,
 };
 
 const IconWrapper = (props: Props) => {
@@ -54,11 +54,6 @@ const IconWrapper = (props: Props) => {
       `}</style>
     </React.Fragment>
   );
-};
-
-IconWrapper.defaultProps = {
-  size: sizeIcon.normal,
-  type: colorIcon.primary
 };
 
 export default IconWrapper;

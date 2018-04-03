@@ -142,7 +142,7 @@ exports[`Storyshots Button Destructive button 1`] = `
           }
         >
           <button
-            className="jsx-3521572284"
+            className="jsx-1514011765"
             disabled={false}
             onClick={[Function]}
           >
@@ -570,7 +570,7 @@ exports[`Storyshots Button Facebook button 1`] = `
           }
         >
           <button
-            className="jsx-1652606575"
+            className="jsx-245335206"
             disabled={false}
             onClick={[Function]}
           >
@@ -998,7 +998,7 @@ exports[`Storyshots Button Google button 1`] = `
           }
         >
           <button
-            className="jsx-2078012686"
+            className="jsx-2094277319"
             disabled={false}
             onClick={[Function]}
           >
@@ -1426,7 +1426,7 @@ exports[`Storyshots Button Link button 1`] = `
           }
         >
           <button
-            className="jsx-4159781416"
+            className="jsx-2909116448"
             disabled={false}
             onClick={[Function]}
           >
@@ -1745,7 +1745,7 @@ exports[`Storyshots Button Link button 1`] = `
           }
         >
           <button
-            className="jsx-4094412599"
+            className="jsx-2333298527"
             disabled={false}
             onClick={[Function]}
           >
@@ -2173,7 +2173,7 @@ exports[`Storyshots Button Primary button 1`] = `
           }
         >
           <button
-            className="jsx-371193713"
+            className="jsx-517056952"
             disabled={false}
             onClick={[Function]}
           >
@@ -2333,37 +2333,6 @@ exports[`Storyshots Button Primary button 1`] = `
                         <span
                           style={Object {}}
                         >
-                          width
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            <span>
-                              {
-                              <span
-                                style={
-                                  Object {
-                                    "color": "#a11",
-                                  }
-                                }
-                              >
-                                180
-                              </span>
-                              }
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
                           type
                         </span>
                         <span>
@@ -2492,7 +2461,7 @@ exports[`Storyshots Button Primary button 1`] = `
           }
         >
           <button
-            className="jsx-1755081678"
+            className="jsx-1771346311"
             disabled={false}
             onClick={[Function]}
           >
@@ -2659,37 +2628,6 @@ exports[`Storyshots Button Primary button 1`] = `
                               "
                               normal
                               "
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                        <span>
-                          <br />
-                            
-                        </span>
-                        <span
-                          style={Object {}}
-                        >
-                          width
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            <span>
-                              {
-                              <span
-                                style={
-                                  Object {
-                                    "color": "#a11",
-                                  }
-                                }
-                              >
-                                180
-                              </span>
-                              }
                             </span>
                           </span>
                         </span>
@@ -2920,7 +2858,7 @@ exports[`Storyshots Button Secondary button 1`] = `
           }
         >
           <button
-            className="jsx-2650748970"
+            className="jsx-2324113123"
             disabled={false}
             onClick={[Function]}
           >
@@ -3239,7 +3177,7 @@ exports[`Storyshots Button Secondary button 1`] = `
           }
         >
           <button
-            className="jsx-3752307925"
+            className="jsx-3916815900"
             disabled={false}
             onClick={[Function]}
           >

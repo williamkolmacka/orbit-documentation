@@ -13,4 +13,5 @@ export { default as SystemMessage } from "./SystemMessage";
 export { default as FieldFeedback } from "./FieldFeedback";
 export { default as Typography } from "./Typography";
 export { default as Radio } from "./Radio";
+export { default as TextLink } from "./TextLink";
 export { Icons };

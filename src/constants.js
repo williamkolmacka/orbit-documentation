@@ -113,6 +113,7 @@ export const defaultTokens = {
   backgroundBody: colors.cloud.light,
   backgroundModal: colors.white.normal,
   backgroundSection: colors.white.normal,
+  backgroundCarrierLogo: colors.white.normal, // not defined
   backgroundButtonPrimary: colors.brand.normal,
   backgroundButtonSecondary: colors.cloud.normal,
   backgroundButtonLink: "rgba(0,0,0,0)",
@@ -153,6 +154,8 @@ export const defaultTokens = {
   heightIconSmall: "16px",
   heightIconMedium: "24px",
   widthIconMedium: "24px",
+  heightIconLarge: "32px", // not defined
+  widthIconLarge: "32px", // not defined
   heightInputNormal: "44px",
   heightInputLarge: "52px",
   heightInputSmall: "32px",

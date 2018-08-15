@@ -1,7 +1,7 @@
 # Commits
 
 ## Commit Message
-Always assign a prefix to your first commit in a new branch.
+> Always assign a prefix to your first commit in a new branch.
 
 We use these prefix keywords:
 ```jsx
